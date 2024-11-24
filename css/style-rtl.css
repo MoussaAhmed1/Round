@@ -120,6 +120,7 @@ body {
     width: 100%;
   }
   .trip-search {
+    width:70%;
     position: static;
     margin: 5px auto;
   }
@@ -165,6 +166,11 @@ body {
 @media (max-width: 986px) {
   .destinations{
     padding-top:190px !important;
+  }
+}
+@media (max-width: 500px) {
+  .destinations{
+    padding-top:250px !important;
   }
 }
 
