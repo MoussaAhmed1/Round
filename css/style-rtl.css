@@ -156,6 +156,18 @@ body {
   border-radius: 50%;
 }
 
+
+@media (max-width: 1624px) {
+  .destinations{
+    padding-top:100px !important;
+  }
+}
+@media (max-width: 986px) {
+  .destinations{
+    padding-top:190px !important;
+  }
+}
+
 .swiper-pagination-bullet {
   background-color: #cccaca;
   margin-top: 30px;
@@ -218,7 +230,8 @@ body {
   position: relative;
   z-index: 1;
   margin:0;
-  padding:0
+  padding:0;
+  overflow:hidden;
 }
 
 .tourist_trips .overlay {
@@ -321,4 +334,7 @@ footer h6 {
   display:flex;
   align-items:center;
   justify-content:center;
+}
+.footer .endFooter  {
+ font-size:12px
 }
